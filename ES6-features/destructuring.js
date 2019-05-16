@@ -4,7 +4,16 @@ const person = {
   actor: true,
   age: 54 //made up
 };
-const { firstName: name, age } = person;
+
+var lastName = person.lastName;
+var age = person.age;
+var actor = person.actor;
+
+const { lastName, age, actor } = person;
+
+// add({ age, lastName})
+
+// const { firstName: name, age } = person;
 
 // On array
 
